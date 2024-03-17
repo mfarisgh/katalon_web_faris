@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>G4-S2-DeleteEmploymentStatusSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>53a4b01d-dff3-4e91-bedc-99d8915185fb</testSuiteGuid>
+   <testCaseLink>
+      <guid>8a8bcfb9-f453-4e60-b255-8b8d3c52cb79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G4-AdminJobEmploymentStatus/G4-S2-DeleteEmploymentStatus/G4-S2-TC1-Successfully delete an employment status</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f8e38f8-d7fd-4e56-9055-5a7351b0de3d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5303cc8-65a4-44c2-b9ac-405d4ba98a44</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G4-AdminJobEmploymentStatus/G4-S2-DeleteEmploymentStatus/G4-S2-TC2-Users delete more than one employment status</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b02c40ef-3664-4556-9a99-cc6ef8e8c8f1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

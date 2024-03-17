@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S2-TC4-Users enter minimum salary higher than maximum salary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d8ec02d-fe67-403a-bb2f-5bfdf07c82fa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32554c44-d664-4403-af06-3da26b91dd3d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>975161e7-a4dc-435e-908a-6d21ec613367</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95c06b59-9488-4211-b054-82bb8496bf8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec550f67-71c6-4536-9d47-ce769f635953</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>32554c44-d664-4403-af06-3da26b91dd3d</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'AFN - Afghanistan Afghani'</defaultValue>
+      <description></description>
+      <id>975161e7-a4dc-435e-908a-6d21ec613367</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'300'</defaultValue>
+      <description></description>
+      <id>95c06b59-9488-4211-b054-82bb8496bf8b</id>
+      <masked>false</masked>
+      <name>minSalary</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>ec550f67-71c6-4536-9d47-ce769f635953</id>
+      <masked>false</masked>
+      <name>maxSalary</name>
+   </variable>
+</TestCaseEntity>

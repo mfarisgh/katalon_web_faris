@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S2-TC2-Users delete more than one skill</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a89646d9-32e1-4d1d-bddd-2d0b0529c8ef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>495fe886-f2d3-4474-9849-aa3660226259</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Skill 2,Skill 3'</defaultValue>
+      <description></description>
+      <id>495fe886-f2d3-4474-9849-aa3660226259</id>
+      <masked>false</masked>
+      <name>skillNames</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S1-TC1-Successfully added new skill name (with DDT)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e61b8ec0-b63d-4e54-997b-9f70e69f6df9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f5d30d51-a0f5-4937-be14-c478eef2cd7a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/addNewSkills</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f5d30d51-a0f5-4937-be14-c478eef2cd7a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>skillName</value>
+      <variableId>b590423a-8546-4899-be86-0b01f39512c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f5d30d51-a0f5-4937-be14-c478eef2cd7a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>skillDescription</value>
+      <variableId>9faebdf0-97a4-4655-afda-beeced12e799</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Skill 1'</defaultValue>
+      <description></description>
+      <id>b590423a-8546-4899-be86-0b01f39512c6</id>
+      <masked>false</masked>
+      <name>skillName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Desc 1'</defaultValue>
+      <description></description>
+      <id>9faebdf0-97a4-4655-afda-beeced12e799</id>
+      <masked>false</masked>
+      <name>skillDescription</name>
+   </variable>
+</TestCaseEntity>

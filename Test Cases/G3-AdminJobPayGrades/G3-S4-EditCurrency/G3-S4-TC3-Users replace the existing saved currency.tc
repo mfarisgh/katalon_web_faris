@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S4-TC3-Users replace the existing saved currency</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5ff06e0-8b9c-4df5-9092-2120b95771fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f404c0b9-7413-482f-9eee-0157c7441189</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40ffcefc-4e83-4900-a394-700c62c49c87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6011df0a-6776-426b-9fd2-cf860c79110b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>f404c0b9-7413-482f-9eee-0157c7441189</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'Utd. Arab Emir. Dirham'</defaultValue>
+      <description></description>
+      <id>40ffcefc-4e83-4900-a394-700c62c49c87</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'Australian Dollar'</defaultValue>
+      <description></description>
+      <id>6011df0a-6776-426b-9fd2-cf860c79110b</id>
+      <masked>false</masked>
+      <name>newCurrency</name>
+   </variable>
+</TestCaseEntity>

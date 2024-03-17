@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G5-S1-TC1-Successfully add new job category (with DDT)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>918e8a2e-ab13-441f-8022-9e755a7875cd</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5b7fa5d5-6f32-4136-890d-01ae97d682a2</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/addNewJobCategories</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5b7fa5d5-6f32-4136-890d-01ae97d682a2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>jobCategoryName</value>
+      <variableId>71dfc44c-26ec-4a0a-a532-4b9efb1b9696</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cat 1'</defaultValue>
+      <description></description>
+      <id>71dfc44c-26ec-4a0a-a532-4b9efb1b9696</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
+</TestCaseEntity>

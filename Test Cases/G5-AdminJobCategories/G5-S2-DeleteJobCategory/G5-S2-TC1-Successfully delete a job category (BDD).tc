@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G5-S2-TC1-Successfully delete a job category (BDD)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03b4f7c4-9114-4017-84b3-5245b921755c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G2-S1-TC1-Successfully add new job title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1f25bcb-4bd7-4fa2-98b0-4b1d07cb8811</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0365cb8b-4c0c-4b69-8b6f-7d737203b44c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0359153-3e05-4197-a772-dd9162d3160f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6d70637-3b1d-4828-8bcb-72183ecef3e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db4f3a8a-2950-4b17-b238-510a7010ea4b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TestJobTitle'</defaultValue>
+      <description></description>
+      <id>0365cb8b-4c0c-4b69-8b6f-7d737203b44c</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Description of Test Job'</defaultValue>
+      <description></description>
+      <id>b0359153-3e05-4197-a772-dd9162d3160f</id>
+      <masked>false</masked>
+      <name>jobDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'Note of Test Job'</defaultValue>
+      <description></description>
+      <id>d6d70637-3b1d-4828-8bcb-72183ecef3e7</id>
+      <masked>false</masked>
+      <name>jobNote</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\acer10\\Downloads\\Free_Test_Data_500KB_PDF.pdf'</defaultValue>
+      <description></description>
+      <id>db4f3a8a-2950-4b17-b238-510a7010ea4b</id>
+      <masked>false</masked>
+      <name>jobFileLoc</name>
+   </variable>
+</TestCaseEntity>

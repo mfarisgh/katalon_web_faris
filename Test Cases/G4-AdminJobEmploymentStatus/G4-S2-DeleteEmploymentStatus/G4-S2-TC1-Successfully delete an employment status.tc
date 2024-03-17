@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G4-S2-TC1-Successfully delete an employment status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4775d96-0749-4fd3-a321-3423638c80b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f8e38f8-d7fd-4e56-9055-5a7351b0de3d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Status 1'</defaultValue>
+      <description></description>
+      <id>7f8e38f8-d7fd-4e56-9055-5a7351b0de3d</id>
+      <masked>false</masked>
+      <name>employmentStatusName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G4-S2-TC2-Users delete more than one employment status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bccb1b0-e0f6-4f89-ab4f-64590bc25bbe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b02c40ef-3664-4556-9a99-cc6ef8e8c8f1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Status 2,Status 3'</defaultValue>
+      <description></description>
+      <id>b02c40ef-3664-4556-9a99-cc6ef8e8c8f1</id>
+      <masked>false</masked>
+      <name>employmentStatusNames</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S3-TC2-Users enter the same skill name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5da86d3b-f0e6-4344-a977-139365c4abed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a418acf-c558-4402-988e-26314a6d84dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10e76716-e485-428b-a6b4-7c57201e8852</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Skill D'</defaultValue>
+      <description></description>
+      <id>8a418acf-c558-4402-988e-26314a6d84dd</id>
+      <masked>false</masked>
+      <name>skillName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Skill 5'</defaultValue>
+      <description></description>
+      <id>10e76716-e485-428b-a6b4-7c57201e8852</id>
+      <masked>false</masked>
+      <name>newSkillName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1-S1-TC1-Users Enter Valid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>105609bd-18e4-4acd-ab7e-8f4e6691aeaf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c8fc56b-6dac-40bf-8b6f-f3599e892bdf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'effadm'</defaultValue>
+      <description></description>
+      <id>3c8fc56b-6dac-40bf-8b6f-f3599e892bdf</id>
+      <masked>false</masked>
+      <name>searchUsername</name>
+   </variable>
+</TestCaseEntity>

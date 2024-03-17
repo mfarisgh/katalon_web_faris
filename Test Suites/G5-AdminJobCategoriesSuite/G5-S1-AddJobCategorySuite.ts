@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>G5-S1-AddJobCategorySuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>4612f6e8-4b37-4fcb-8ec2-a367cf26f80b</testSuiteGuid>
+   <testCaseLink>
+      <guid>3779a6a4-ab47-4272-95bb-01cfeb60be6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G5-AdminJobCategories/G5-S1-AddJobCategory/G5-S1-TC1-Successfully add new job category (with DDT)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>845f003b-2760-4256-a8ca-bc393affb546</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/addNewJobCategories</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>845f003b-2760-4256-a8ca-bc393affb546</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobCategoryName</value>
+         <variableId>71dfc44c-26ec-4a0a-a532-4b9efb1b9696</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb548e53-a8b6-4fb9-bcd4-d6c5f70e9910</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G5-AdminJobCategories/G5-S1-AddJobCategory/G5-S1-TC2-Users enter existing job category</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>93f54da6-5096-43ac-875b-38bfdbf2680c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

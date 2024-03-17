@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S3-TC1-Successfully delete a currency</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86d95d2c-41a1-45e6-8505-f2449ae8b1b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c5a5b19f-b971-4631-80cd-b306d453f525</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e817ef8-005f-4a79-87bb-259b96e7d206</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>c5a5b19f-b971-4631-80cd-b306d453f525</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'Utd. Arab Emir. Dirham'</defaultValue>
+      <description></description>
+      <id>5e817ef8-005f-4a79-87bb-259b96e7d206</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+</TestCaseEntity>

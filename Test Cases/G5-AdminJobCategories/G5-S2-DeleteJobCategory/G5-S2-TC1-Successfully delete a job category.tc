@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G5-S2-TC1-Successfully delete a job category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>606c252c-853e-4137-850d-165283b312b1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b77134b2-60bb-49da-804f-01876b3c0cf2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cat 1'</defaultValue>
+      <description></description>
+      <id>b77134b2-60bb-49da-804f-01876b3c0cf2</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
+</TestCaseEntity>

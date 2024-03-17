@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G0-S2-TC3-Users enter invalid username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c70b1f57-a836-4df9-9eda-1268dd118978</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dae1ed69-6d6e-418a-a374-92eb117e2bcf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'odisa2'</defaultValue>
+      <description></description>
+      <id>dae1ed69-6d6e-418a-a374-92eb117e2bcf</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

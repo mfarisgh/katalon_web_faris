@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1-S3-TC2-Users delete more than one account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>804a21dc-e990-40a7-9f16-31ce13979af4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>782c541b-dcba-4339-a29c-bcbe7fb32125</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'odisa1,petemacand1'</defaultValue>
+      <description></description>
+      <id>782c541b-dcba-4339-a29c-bcbe7fb32125</id>
+      <masked>false</masked>
+      <name>userNames</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S2-TC1-Successfully add new currency (with DDT)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc510e93-3929-4825-bafb-2b794bcf5beb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>17cbe003-cfff-4759-8662-4bb051750f65</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/addNewCurrency</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50b431ee-44d7-4de7-9d40-67d2151df234</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>17cbe003-cfff-4759-8662-4bb051750f65</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>currency</value>
+      <variableId>e2193e87-c118-4b85-bc94-f5d9d0c9ecbe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>17cbe003-cfff-4759-8662-4bb051750f65</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>minSalary</value>
+      <variableId>752b3e06-a941-4295-b245-9a1fc2312e8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>17cbe003-cfff-4759-8662-4bb051750f65</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>maxSalary</value>
+      <variableId>ff56fe7b-6422-409b-8ce7-05e34ab4cc15</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>50b431ee-44d7-4de7-9d40-67d2151df234</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'ALL - Albanian Lek'</defaultValue>
+      <description></description>
+      <id>e2193e87-c118-4b85-bc94-f5d9d0c9ecbe</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>752b3e06-a941-4295-b245-9a1fc2312e8e</id>
+      <masked>false</masked>
+      <name>minSalary</name>
+   </variable>
+   <variable>
+      <defaultValue>'400'</defaultValue>
+      <description></description>
+      <id>ff56fe7b-6422-409b-8ce7-05e34ab4cc15</id>
+      <masked>false</masked>
+      <name>maxSalary</name>
+   </variable>
+</TestCaseEntity>

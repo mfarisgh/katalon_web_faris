@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1-S3-TC1-Successfully delete account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80bb92b0-a771-48a7-b036-7711dde636f3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cf3b872-9fa3-4f11-acf4-6005762485ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'aliced1'</defaultValue>
+      <description></description>
+      <id>4cf3b872-9fa3-4f11-acf4-6005762485ab</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

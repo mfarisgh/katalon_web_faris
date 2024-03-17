@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1-S2-TC2-Users enter an unregistered employee name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7edef45-3aef-4f91-8237-af62b4853663</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50573847-ca8f-4b44-a5f2-04d7a7846020</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'faris'</defaultValue>
+      <description></description>
+      <id>50573847-ca8f-4b44-a5f2-04d7a7846020</id>
+      <masked>false</masked>
+      <name>employeeNameSearch</name>
+   </variable>
+</TestCaseEntity>

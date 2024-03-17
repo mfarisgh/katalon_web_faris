@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>G4-S1-AddEmploymentStatusSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6ec27203-1b44-4d33-bea0-456b7344f0be</testSuiteGuid>
+   <testCaseLink>
+      <guid>8e0ddcc1-2dcf-496b-9e25-a5e3fa98e16c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G4-AdminJobEmploymentStatus/G4-S1-AddEmploymentStatus/G4-S1-TC1-Successfully add new employment status (with DDT)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>12a58f8b-fdb3-42ca-aff2-b104c9f753d3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/addNewEmploymentStatus</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>12a58f8b-fdb3-42ca-aff2-b104c9f753d3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>employmentStatusName</value>
+         <variableId>85692b25-f2f4-416b-936d-b43e2478cb6d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41171b80-3a3b-4969-8974-2d5ec3e6d4bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G4-AdminJobEmploymentStatus/G4-S1-AddEmploymentStatus/G4-S1-TC2-Users enter existing employment status</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdb349f6-a9ca-4d88-8c7e-5212228986ff</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G4-S1-TC2-Users enter existing employment status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aab4c9bb-7061-4a0d-bbb1-04571a357cdb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bdb349f6-a9ca-4d88-8c7e-5212228986ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Status 1'</defaultValue>
+      <description></description>
+      <id>bdb349f6-a9ca-4d88-8c7e-5212228986ff</id>
+      <masked>false</masked>
+      <name>employmentStatusName</name>
+   </variable>
+</TestCaseEntity>

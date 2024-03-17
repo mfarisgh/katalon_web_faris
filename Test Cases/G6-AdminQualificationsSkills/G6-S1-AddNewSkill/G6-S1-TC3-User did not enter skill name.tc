@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S1-TC3-User did not enter skill name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04f007e2-3437-4aad-ac68-6fc18db6f455</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c8ae898-e577-41fc-ad96-58b78862976f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c8ae898-e577-41fc-ad96-58b78862976f</id>
+      <masked>false</masked>
+      <name>skillName</name>
+   </variable>
+</TestCaseEntity>

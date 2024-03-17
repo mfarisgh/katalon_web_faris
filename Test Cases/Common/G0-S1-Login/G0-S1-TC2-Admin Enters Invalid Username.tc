@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G0-S1-TC2-Admin Enters Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07ffc314-540b-428e-9746-65d6c578a08a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6da95a7-9043-4e14-980a-5287be1e3a15</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ekming'</defaultValue>
+      <description></description>
+      <id>d6da95a7-9043-4e14-980a-5287be1e3a15</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

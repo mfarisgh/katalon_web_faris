@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G5-S1-TC2-Users enter existing job category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d506dd5-2d7e-495c-921d-4117eb9cb4f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93f54da6-5096-43ac-875b-38bfdbf2680c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cat 1'</defaultValue>
+      <description></description>
+      <id>93f54da6-5096-43ac-875b-38bfdbf2680c</id>
+      <masked>false</masked>
+      <name>jobCategoryName</name>
+   </variable>
+</TestCaseEntity>

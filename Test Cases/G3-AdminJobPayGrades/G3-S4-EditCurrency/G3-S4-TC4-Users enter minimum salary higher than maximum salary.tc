@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S4-TC4-Users enter minimum salary higher than maximum salary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cb892d5-d6f2-4cc7-aa23-38466b2de841</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>409badce-ebdf-4e33-8603-06c3d2be5045</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd2decb3-78ca-48fb-9529-33e38182d01d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f54789f-9097-4381-a9e7-695bfbfa2ccc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>409badce-ebdf-4e33-8603-06c3d2be5045</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'Albanian Lek'</defaultValue>
+      <description></description>
+      <id>fd2decb3-78ca-48fb-9529-33e38182d01d</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>1f54789f-9097-4381-a9e7-695bfbfa2ccc</id>
+      <masked>false</masked>
+      <name>minSalary</name>
+   </variable>
+</TestCaseEntity>

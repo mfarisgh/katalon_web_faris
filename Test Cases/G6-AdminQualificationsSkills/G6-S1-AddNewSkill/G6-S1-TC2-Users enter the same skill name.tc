@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S1-TC2-Users enter the same skill name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2c54d4f-7178-4cce-9f49-1d3699a266bf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca366841-8e7e-470f-985d-b6c00268ab78</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Skill 1'</defaultValue>
+      <description></description>
+      <id>ca366841-8e7e-470f-985d-b6c00268ab78</id>
+      <masked>false</masked>
+      <name>skillName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G5-S2-TC2-Users delete more than one job category (BDD)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caf2782a-687a-48b3-b35b-dcf93283ebfb</testCaseGuid>
+</TestCaseEntity>

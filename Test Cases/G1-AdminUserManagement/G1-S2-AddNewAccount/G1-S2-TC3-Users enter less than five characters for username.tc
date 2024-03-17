@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1-S2-TC3-Users enter less than five characters for username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c7a6a6f-690f-415a-a860-b42667004a45</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8faf308-8e90-4e84-9e1f-f7a99283dd0f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'paul'</defaultValue>
+      <description></description>
+      <id>c8faf308-8e90-4e84-9e1f-f7a99283dd0f</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

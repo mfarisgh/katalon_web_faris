@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G4-S1-TC1-Successfully add new employment status (with DDT)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef5d5a62-a157-409b-b968-76af280b9964</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>83925de9-76f0-4b5b-8be4-99dadf50121a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/addNewEmploymentStatus</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>83925de9-76f0-4b5b-8be4-99dadf50121a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>employmentStatusName</value>
+      <variableId>85692b25-f2f4-416b-936d-b43e2478cb6d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Status 1'</defaultValue>
+      <description></description>
+      <id>85692b25-f2f4-416b-936d-b43e2478cb6d</id>
+      <masked>false</masked>
+      <name>employmentStatusName</name>
+   </variable>
+</TestCaseEntity>

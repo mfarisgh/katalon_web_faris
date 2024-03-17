@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S1-TC1-Successfully add new pay grade</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a5f71a0-c87c-4796-838c-f15601eaca1a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f749f63-0eb2-4657-a19b-772da620bbf7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>6f749f63-0eb2-4657-a19b-772da620bbf7</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+</TestCaseEntity>

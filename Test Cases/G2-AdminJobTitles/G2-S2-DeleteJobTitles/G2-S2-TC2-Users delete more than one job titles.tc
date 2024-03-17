@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G2-S2-TC2-Users delete more than one job titles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7976826-c5eb-4492-99ea-66ee6d3130a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb09f518-fbdb-4e4f-81eb-2b9ca4efe510</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TestJobTitle,Test2'</defaultValue>
+      <description></description>
+      <id>eb09f518-fbdb-4e4f-81eb-2b9ca4efe510</id>
+      <masked>false</masked>
+      <name>jobTitles</name>
+   </variable>
+</TestCaseEntity>

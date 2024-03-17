@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S4-TC2-Successfully edit the amount of maximum salary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9eaad450-db61-4ea2-b4d2-50d299e24b3d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65a69bfe-35e6-4140-be5a-4474004b5493</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e598842-d1ea-4497-b169-0a5104152d1b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbf4b389-2097-4d25-90f9-c599a7b5d05f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>65a69bfe-35e6-4140-be5a-4474004b5493</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'Afghanistan Afghani'</defaultValue>
+      <description></description>
+      <id>1e598842-d1ea-4497-b169-0a5104152d1b</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'500'</defaultValue>
+      <description></description>
+      <id>dbf4b389-2097-4d25-90f9-c599a7b5d05f</id>
+      <masked>false</masked>
+      <name>maxSalary</name>
+   </variable>
+</TestCaseEntity>

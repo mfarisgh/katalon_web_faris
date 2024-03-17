@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>G1-S1-SearchUsersSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>0fa02c03-d040-4c2e-a183-f573fd011f5b</testSuiteGuid>
+   <testCaseLink>
+      <guid>00222a13-fbd8-476a-8462-6b9f2a77d8c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G1-AdminUserManagement/G1-S1-SearchUsers/G1-S1-TC1-Users Enter Valid Username</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3c8fc56b-6dac-40bf-8b6f-f3599e892bdf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34d04cc1-d036-4eb1-a04c-5805436d35e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G1-AdminUserManagement/G1-S1-SearchUsers/G1-S1-TC2-Users Enter Invalid Username</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5fbf41f6-3025-4e52-9585-deaedebb96c3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

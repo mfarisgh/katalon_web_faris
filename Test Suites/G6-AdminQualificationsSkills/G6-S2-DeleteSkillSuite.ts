@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>G6-S2-DeleteSkillSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>b55209fa-8339-4fe3-8c2b-7cf18514983c</testSuiteGuid>
+   <testCaseLink>
+      <guid>b9caba14-7d05-4e4b-91f5-2bfa676a9644</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G6-AdminQualificationsSkills/G6-S2-DeleteSkill/G6-S2-TC1-Successfully delete a skill</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8df811bd-3261-4713-a5ba-7b072c18633e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47243dc4-42a5-4ebe-9b0e-d8f9e3b0edbe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G6-AdminQualificationsSkills/G6-S2-DeleteSkill/G6-S2-TC2-Users delete more than one skill</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>495fe886-f2d3-4474-9849-aa3660226259</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

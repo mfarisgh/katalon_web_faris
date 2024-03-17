@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1-S2-TC4-Users enter the registered username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32a8a2f3-f174-404a-9966-5378362043ad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d97c0ab-0b11-4398-b2a9-db6c0cf821ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'odisa1'</defaultValue>
+      <description></description>
+      <id>0d97c0ab-0b11-4398-b2a9-db6c0cf821ba</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

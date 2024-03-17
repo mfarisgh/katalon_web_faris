@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G2-S1-TC2-Users enter registered job title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12cc575a-0e7c-45a4-af39-fb02c7074aea</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f9121dbd-1575-4959-8a4b-14a48d44a305</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TestJobTitle'</defaultValue>
+      <description></description>
+      <id>f9121dbd-1575-4959-8a4b-14a48d44a305</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+</TestCaseEntity>

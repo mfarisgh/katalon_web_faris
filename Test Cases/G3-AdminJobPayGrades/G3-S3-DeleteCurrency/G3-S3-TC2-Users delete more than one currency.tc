@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S3-TC2-Users delete more than one currency</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c106ad53-4de6-405c-af8b-efdb5dd74d1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbc2068a-ed72-4d00-bdfc-2d3925a618b8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>354b85eb-8ddd-4322-9faf-67b903ae05c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Afghanistan Afghani,Albanian Lek'</defaultValue>
+      <description></description>
+      <id>cbc2068a-ed72-4d00-bdfc-2d3925a618b8</id>
+      <masked>false</masked>
+      <name>currencies</name>
+   </variable>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>354b85eb-8ddd-4322-9faf-67b903ae05c6</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+</TestCaseEntity>

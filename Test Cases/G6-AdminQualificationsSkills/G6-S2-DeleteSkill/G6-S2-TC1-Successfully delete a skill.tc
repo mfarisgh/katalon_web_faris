@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S2-TC1-Successfully delete a skill</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>577208d8-2a48-4e4b-a3a6-564bd8c45812</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8df811bd-3261-4713-a5ba-7b072c18633e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Skill 1'</defaultValue>
+      <description></description>
+      <id>8df811bd-3261-4713-a5ba-7b072c18633e</id>
+      <masked>false</masked>
+      <name>skillName</name>
+   </variable>
+</TestCaseEntity>

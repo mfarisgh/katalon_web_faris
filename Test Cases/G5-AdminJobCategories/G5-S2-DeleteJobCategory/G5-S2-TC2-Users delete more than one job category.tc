@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G5-S2-TC2-Users delete more than one job category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e278a10e-569a-461d-bc8f-c68035a7b3f7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b64743d2-0c74-419d-b814-d856827de110</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cat 2,Cat 3'</defaultValue>
+      <description></description>
+      <id>b64743d2-0c74-419d-b814-d856827de110</id>
+      <masked>false</masked>
+      <name>jobCategoryNames</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G3-S4-TC1-Successfully edit the amount of minimum salary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce3a0f93-b666-4ba5-abb9-3c20c3c08424</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1110e7ce-5f24-4588-b2df-457f86116d51</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2de62cae-9f92-4041-a60d-0327812793ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7da23cd5-a7e4-4755-b517-d2d6bfc27f29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'g1'</defaultValue>
+      <description></description>
+      <id>1110e7ce-5f24-4588-b2df-457f86116d51</id>
+      <masked>false</masked>
+      <name>payGrade</name>
+   </variable>
+   <variable>
+      <defaultValue>'Albanian Lek'</defaultValue>
+      <description></description>
+      <id>2de62cae-9f92-4041-a60d-0327812793ca</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'150'</defaultValue>
+      <description></description>
+      <id>7da23cd5-a7e4-4755-b517-d2d6bfc27f29</id>
+      <masked>false</masked>
+      <name>minSalary</name>
+   </variable>
+</TestCaseEntity>

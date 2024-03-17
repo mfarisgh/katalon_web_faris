@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>G5-S2-DeleteJobCategorySuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>6448a4c3-7e8c-4fbc-bffe-eba7b7313414</testSuiteGuid>
+   <testCaseLink>
+      <guid>5f40c79e-ae40-4b5b-b545-6056ed03f554</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G5-AdminJobCategories/G5-S2-DeleteJobCategory/G5-S2-TC1-Successfully delete a job category</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b77134b2-60bb-49da-804f-01876b3c0cf2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa9db2a1-5df2-43ae-bfab-b7392dea0350</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G5-AdminJobCategories/G5-S2-DeleteJobCategory/G5-S2-TC2-Users delete more than one job category</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b64743d2-0c74-419d-b814-d856827de110</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

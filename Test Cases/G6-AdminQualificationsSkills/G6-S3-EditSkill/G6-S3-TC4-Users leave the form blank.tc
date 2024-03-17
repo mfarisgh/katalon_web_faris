@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G6-S3-TC4-Users leave the form blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd2a6c4c-b28c-40b2-958e-37925fd6f31c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d07f9be8-5f97-4901-b56d-af4cca85fc2a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Skill 5'</defaultValue>
+      <description></description>
+      <id>d07f9be8-5f97-4901-b56d-af4cca85fc2a</id>
+      <masked>false</masked>
+      <name>skillName</name>
+   </variable>
+</TestCaseEntity>
