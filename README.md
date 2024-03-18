@@ -126,6 +126,7 @@ The following prerequisites that you will need to get started:
    ```
    
 4. Choose and run any of the Test Cases or Test Suites in `Test Cases` or `Test Suites` folder.
+5. Change profile/environment to `DemoLive` to be able to use all the variables/parameters specified in Test Cases.
 
 
 ### Running the Automation Tests using CI
