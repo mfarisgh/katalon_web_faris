@@ -10,4 +10,3 @@ Examples:
 |jobCategoryName|
 |Cat A|
 |Cat B|
-|Cat C|

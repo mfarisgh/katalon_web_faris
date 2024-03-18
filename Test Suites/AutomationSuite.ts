@@ -44,4 +44,11 @@
          <variableId>5fbf41f6-3025-4e52-9585-deaedebb96c3</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3cdd09b1-cb0c-4457-8836-59b62f5f465f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/G5-AdminJobCategories/G5-S1-AddJobCategory/G5-S1-TC1-Successfully add new job category (BDD)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

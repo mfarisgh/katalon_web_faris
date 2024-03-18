@@ -38,6 +38,3 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementPresent(findTestObject('OrangeHRM-UsersManagement/Page_OrangeHRM/p_Homepage_LoginSuccess_FullName'), 
     0)
-
-WebUI.closeBrowser()
-

@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -12,52 +11,40 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
 import com.kms.katalon.core.testobject.TestObject as TestObject
-
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.annotation.SetUp as SetUp
+import com.kms.katalon.core.annotation.SetupTestCase as SetupTestCase
+import com.kms.katalon.core.annotation.TearDown as TearDown
+import com.kms.katalon.core.annotation.TearDownIfFailed as TearDownIfFailed
+import com.kms.katalon.core.annotation.TearDownTestCase as TearDownTestCase
+import com.kms.katalon.core.context.TestCaseContext as TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext as TestSuiteContext
+import common.CentralVars as CentralVars
+import common.DateTimeMgmt as DateTimeMgmt
+import common.JiraMgmt as JiraMgmt
+import common.PropFileMgmt as PropFileMgmt
 
-import com.kms.katalon.core.annotation.SetUp
-import com.kms.katalon.core.annotation.SetupTestCase
-import com.kms.katalon.core.annotation.TearDown
-import com.kms.katalon.core.annotation.TearDownTestCase
-
-/**
- * Some methods below are samples for using SetUp/TearDown in a test suite.
- */
-
-/**
- * Setup test suite environment.
- */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+@SetUp(skipped = true)
 def setUp() {
-	// Put your code here.
 }
 
-/**
- * Clean test suites environment.
- */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = true)
 def tearDown() {
-	// Put your code here.
 }
 
-/**
- * Run before each test case starts.
- */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = true)
 def setupTestCase() {
-	// Put your code here.
 }
 
-/**
- * Run after each test case ends.
- */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = true)
 def tearDownTestCase() {
-	// Put your code here.
+}
+
+@TearDownIfFailed(skipped = true)
+def tearDownIfFailed() {
 }
 
 /**

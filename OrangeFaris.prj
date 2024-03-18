@@ -4,7 +4,10 @@
    <name>OrangeFaris</name>
    <tag></tag>
    <UUID>5f894e6e-8698-4c3c-9938-64b7abc4b767</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.3.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\mfarisTB\Katalon Studio\OrangeFaris\OrangeFaris.prj</projectFileLocation>
    <sourceContent>
