@@ -8,7 +8,7 @@ workflows:
 jobs:
   katalon-tests-self-runner:
     machine: true
-    resource_class: mfarisgh/faris-aws-hosted
+    resource_class: mfarisgh/faris-self-hosted
     steps:
       - checkout
       - run:
