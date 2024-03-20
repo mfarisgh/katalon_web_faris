@@ -15,7 +15,7 @@ jobs:
           name: Run Katalon Tests
           command: ${KRE_HOME}/katalonc -noSplash -runMode=console -projectPath="${PROJECT_PATH}" -reportFolder="${REPORT_PATH}" -retry=0 -testSuitePath="${TS_PATH}" -browserType="${BROWSER_TYPE}" -executionProfile="${EXEC_PROFILE}" -apiKey="${KAT_API_KEY}" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
 
-	- persist_to_workspace:
+      - persist_to_workspace:
           root: ${REPORT_PATH}
           paths:
             - .
