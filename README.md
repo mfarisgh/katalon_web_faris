@@ -137,7 +137,7 @@ The following prerequisites that you will need to get started:
 
 #### A. Jenkins
 
-1. I will be referring to the use case of Jenkins in a Linux server where the job will run as a pipeline and not involving any Docker images.
+1. I will be referring to the use case of Jenkins in a Linux server where the [job will run as a pipeline](https://www.jenkins.io/doc/book/pipeline/getting-started/) and not involving any Docker images.
 2. If you are not using/stating any Docker images in your pipeline, your Linux server (where Jenkins was installed or where the Jenkins job will be running) must have the following installed:
    
    i. OpenJDK
