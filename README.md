@@ -118,11 +118,11 @@ The following prerequisites that you will need to get started:
 3. [Optional] If you want to utilize the Jira integration, look for `local.properties` in `Include/config`. Configure it as follows:
    
    ```sh
-     jira.enabled=  # true or false
-     jira.url=  # your Jira URL. Do not forget the ending slash! You may leave it blank.
-     jira.username=  #  your Jira username (email address). You may leave it blank.
-     jira.token=  # your Jira user token. You may leave it blank.
-     jira.project=  # your Jira project code. e.g. STC. You may leave it blank.
+   jira.enabled=  # true or false
+   jira.url=  # your Jira URL. Do not forget the ending slash! You may leave it blank.
+   jira.username=  #  your Jira username (email address). You may leave it blank.
+   jira.token=  # your Jira user token. You may leave it blank.
+   jira.project=  # your Jira project code. e.g. STC. You may leave it blank.
    ```
    
 4. Choose and run any of the Test Cases or Test Suites in `Test Cases` or `Test Suites` folder.
@@ -132,7 +132,42 @@ The following prerequisites that you will need to get started:
 
 ### Running the Automation Tests using CI
 
-* Coming soon ...
+#### A. Jenkins
+
+1. I will be referring to the use case of Jenkins in a Linux server where the job will run as a pipeline and not involving any Docker images.
+2. If you are not using/stating any Docker images in your pipeline, your Linux server (where Jenkins was installed or where the Jenkins job will be running) must have the following installed:
+   
+   i. OpenJDK
+   
+   ```sh
+   sudo apt install openjdk-17-jdk
+   ```
+   ii. Browser (I'll take Chrome as an example)
+   
+   ```sh
+   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   sudo apt --fix-broken install ./google-chrome-stable_current_amd64.deb
+   google-chrome --version
+   ```
+   iii. Katalon Runtime Engine (KRE)
+   
+   ```sh
+   wget https://download.katalon.com/9.3.2/Katalon_Studio_Engine_Linux_64-9.3.2.tar.gz
+   sudo tar xvzf ./Katalon_Studio_Engine_Linux_64-9.3.2.tar.gz
+   sudo mv ./Katalon_Studio_Engine_Linux_64-9.3.2 ./kre
+   sudo chmod -R 777 ./kre
+   ```
+4. You can refer to the sample `jenkins_pipeline_katalon.txt` to assign respective values such as the directory of KRE, project folder, etc. Copy the contents (in the txt file) to your Jenkins job settings -> Pipeline (Pipeline script).
+5. If your first time build is failed, consider moving/copying the KRE folder into the Jenkins workspace folder.
+   ```sh
+   sudo cp -r /home/<your OS username>/kre /var/lib/jenkins/workspace/<name of job>/kre
+   sudo chmod -R 777 /var/lib/jenkins/workspace/<name of job>/kre
+   ```
+
+*Side note: I have tried running Jenkins in 1GB RAM and 1 core CPU Linux virtual machine using VirtualBox, it works!*
+*Although AWS EC2 Free Tier has almost the same specs (t2.micro with 1GB RAM, 1 core CPU, Linux OS), it doesn't work! No need to waste your time. It freezes on my Free Tier EC2 instances.*
+*Just get a higher paid t2 instances to be able to run Jenkins properly.*
+*[Explanation 1](https://stackoverflow.com/questions/57991172/aws-ec2-t2-micro-unlimited-jenkins-maven-very-slow-build-hangs), [Explanation 2](https://stackoverflow.com/questions/71038504/when-jenkins-job-in-running-ip-gets-frozen-and-inaccessible), [Explanation 3](https://serverfault.com/questions/932544/ec2-instance-freezes)*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
