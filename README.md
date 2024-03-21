@@ -110,6 +110,7 @@ The following prerequisites that you will need to get started:
 2. Installed Katalon Studio.
 3. You're good to go! :)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Running the Automation Tests
 
@@ -129,6 +130,7 @@ The following prerequisites that you will need to get started:
 5. Change profile/environment to `DemoLive` to be able to use all the variables/parameters specified in Test Cases.
 6. If you use Jira and enabled Jira in `local.properties`, all the failed Test Cases will be recorded as a Bug in your Jira Backlog.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Running the Automation Tests using CI
 
@@ -168,6 +170,43 @@ The following prerequisites that you will need to get started:
 *Although AWS EC2 Free Tier has almost the same specs (t2.micro with 1GB RAM, 1 core CPU, Linux OS), it doesn't work! No need to waste your time. It freezes on my Free Tier EC2 instances.*
 *Just get a higher paid t2 instances to be able to run Jenkins properly.*
 *[Explanation 1](https://stackoverflow.com/questions/57991172/aws-ec2-t2-micro-unlimited-jenkins-maven-very-slow-build-hangs), [Explanation 2](https://stackoverflow.com/questions/71038504/when-jenkins-job-in-running-ip-gets-frozen-and-inaccessible), [Explanation 3](https://serverfault.com/questions/932544/ec2-instance-freezes)*
+
+#### B. [CircleCI](https://circleci.com/) (Not for the faint of heart!)
+
+1. CircleCI is intended to be used with projects that is already committed to your own GitHub repository. The behaviour is not the same as Jenkins. With Jenkins, you can checkout any compatible public repositories.
+2. To use CircleCI, you may fork my repository to your own GitHub repository. Proceed with any changes as desired in your own repository.
+3. Ensure that you have [linked your GitHub account to your CircleCI account](https://circleci.com/docs/getting-started/). You will be able to see your GitHub projects in CircleCI and follow it.
+4. Since the project has already included the `.circleci/config.yml` file, you should be able to [configure the pipeline](https://circleci.com/docs/config-editor/) straight away without the need to go through the first time configuration wizard. Otherwise, click on where it says "Skip ... bla3". If there is a button where it says "Use existing config", click it. Then, click "Start building".
+5. You will be presented with an in-app configuration editor. You may remove the following line of code to be able to run the pipeline using CircleCI's provided runner, click "Save and Run". If it fails, proceed to step 9. Otherwise, if you want to set-up your own runner using your Linux server, proceed to step 6.
+   ```sh
+   resource_class: mfarisgh/faris-self-hosted
+   ```
+6. If you want to self-host a runner using your Linux server without the usage of Docker images, ensure that OpenJDK, a browser and Katalon Runtime Engine (KRE) have been installed. Follow step 2 in A. Jenkins.
+7. [Set-up your own runner (Part 1).](https://circleci.com/docs/local-cli/)
+8. [Set-up your own runner (Part 2).](https://circleci.com/docs/install-machine-runner-3-on-linux/)
+9. [Set environment variables in your project.](https://circleci.com/docs/set-environment-variable/#set-an-environment-variable-in-a-project) Put the following environment variables and respective values.
+    ```sh
+    <Name> = <Value>
+    KRE_HOME = '<your Katalon Runtime Engine folder location>'
+    PROJECT_PATH = '/var/lib/circleci-runner/workdir/OrangeFaris.prj'
+    TS_PATH='Test Suites/AutomationSuite'
+    BROWSER_TYPE='Chrome (headless)' #it is better to use headless as we will run it on a non-GUI Linux server
+    EXEC_PROFILE='DemoLive'
+    KAT_API_KEY='<your Katalon API key>' #refer to this website on how to get them https://docs-dev.katalon.com/katalon-platform/administer/settings/katalon-api-keys-in-katalon-studio#gsc.tab=0
+    JIRA_ENABLED='true' #true or false
+    JIRA_URL='<your Jira URL with ending slash>' #You may leave it blank if false
+    JIRA_USERNAME='<your Jira email address>' #You may leave it blank if false
+    JIRA_TOKEN='<your Jira Token>' #You may leave it blank if false
+    JIRA_PROJ='<your Jira project code>' #You may leave it blank if false
+    ```
+10. If you use self-hosted runner. In your CircleCI project, select branch 'master' and click "Edit Config". Replace the following line of code with your resource class name for your self-hosted runner.
+    ```sh
+    resource_class: #your resource class name for your self-hosted runner
+    ```
+11. Click "Save and Run" if you are from the in-app configuration editor. Otherwise, click "Trigger Pipeline" if you are in the project page.
+
+*Side note: Yeah, I know the steps are confusing/cumbersome at first. Just use Jenkins, it will be a bit easier for starters.*
+*Like Jenkins, the CircleCI self-hosted runner works on a 1GB RAM and 1 core CPU Linux virtual machine using VirtualBox but not in AWS EC2 Free Tier instances despite the almost same specs.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
