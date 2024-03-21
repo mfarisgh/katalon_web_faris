@@ -127,6 +127,7 @@ The following prerequisites that you will need to get started:
    
 4. Choose and run any of the Test Cases or Test Suites in `Test Cases` or `Test Suites` folder.
 5. Change profile/environment to `DemoLive` to be able to use all the variables/parameters specified in Test Cases.
+6. If you use Jira and enabled Jira in `local.properties`, all the failed Test Cases will be recorded as a Bug in your Jira Backlog.
 
 
 ### Running the Automation Tests using CI
