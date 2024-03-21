@@ -205,6 +205,7 @@ The following prerequisites that you will need to get started:
     resource_class: #your resource class name for your self-hosted runner
     ```
 11. Click "Save and Run" if you are from the in-app configuration editor. Otherwise, click "Trigger Pipeline" if you are in the project page.
+12. Keep in mind that every changes in your GitHub repo automatically triggers the pipeline. So, if you use CircleCI and constantly making changes to your GitHub repo. You will need to monitor your CircleCI project's pipeline to ensure there are no unwanted running jobs. Especially if you are using self-hosted runner, where if your runner is shut down and you are still making changes to your GitHub repo, you will need to manually cancel the running job in CircleCI project's pipeline.
 
 *Side note: Yeah, I know the steps are confusing/cumbersome at first. Just use Jenkins, it will be a bit easier for starters.*
 *Like Jenkins, the CircleCI self-hosted runner works on a 1GB RAM and 1 core CPU Linux virtual machine using VirtualBox but not in AWS EC2 Free Tier instances despite the almost same specs.*
