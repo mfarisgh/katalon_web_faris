@@ -107,7 +107,7 @@ To get a local copy up and running, follow these simple steps.
 The following prerequisites that you will need to get started:
 
 1. This repo of course! You may download it as a zip file or "git clone" it to your computer.
-2. Installed Katalon Studio.
+2. Installed [Katalon Studio.](https://katalon.com/download)
 3. [Optional] Jenkins or [CircleCI](https://circleci.com/) (I've only tested these two, you may experiment with others at your own risk) if you intend to use the project with CI.
 4. You're good to go! :)
 
