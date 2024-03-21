@@ -108,7 +108,8 @@ The following prerequisites that you will need to get started:
 
 1. This repo of course! You may download it as a zip file or "git clone" it to your computer.
 2. Installed Katalon Studio.
-3. You're good to go! :)
+3. [Optional] Jenkins or [CircleCI](https://circleci.com/) (I've only tested these two, you may experiment with others at your own risk) if you intend to use the project with CI.
+4. You're good to go! :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
