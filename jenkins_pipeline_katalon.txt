@@ -1,0 +1,36 @@
+pipeline {
+    agent any
+
+    environment {
+	CHECKOUT_DIR = './<specify any folder name>'
+        KRE_HOME = '<your Katalon Runtime Engine folder location>'
+        PROJECT_PATH = '/var/lib/jenkins/workspace/<name of jenkins job>/<checkout folder name>/OrangeFaris.prj' //you're getting this folder location after your first time failed build
+        TS_PATH='Test Suites/AutomationSuite'
+        BROWSER_TYPE='Chrome (headless)' //it is better to use headless as we will run it on a non-GUI Linux server
+        EXEC_PROFILE='DemoLive'
+        KAT_API_KEY='<your Katalon API key>' //refer to this website on how to get them https://docs-dev.katalon.com/katalon-platform/administer/settings/katalon-api-keys-in-katalon-studio#gsc.tab=0
+        JIRA_ENABLED='true' //true or false
+        JIRA_URL='<your Jira URL with ending slash>' //You may leave it blank if false
+        JIRA_USERNAME='<your Jira email address>' //You may leave it blank if false
+        JIRA_TOKEN='<your Jira Token>' //You may leave it blank if false
+        JIRA_PROJ='<your Jira project code>' //You may leave it blank if false
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the code from GitHub
+		dir(CHECKOUT_DIR) {
+                	git 'https://github.com/mfarisgh/katalon_web_faris.git'
+		}
+            }
+        }
+        stage('Run Katalon Tests') {
+            steps {
+                // Run Katalon Studio tests using Katalon Runtime Engine
+                sh '${KRE_HOME}/katalonc -noSplash -runMode=console -projectPath=\"${PROJECT_PATH}\" -retry=0 -testSuitePath=\"${TS_PATH}\" -browserType=\"${BROWSER_TYPE}\" -executionProfile=\"${EXEC_PROFILE}\" -apiKey=\"${KAT_API_KEY}\" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+                
+            }
+        }
+    }
+}
