@@ -60,6 +60,14 @@ The goal of this project is to demonstrate how an Automation Testing is done usi
 Of course this project is not limited to its current conditions. 
 You may fork it and customize it further depending on your needs.
 
+* [Get to know about Automation Testing](https://www.techtarget.com/searchsoftwarequality/definition/automated-software-testing)
+* [Get to know Katalon](https://katalon.com/)
+
+OrangeHRM is an open-source human resource management (HRM) software platform. It provides a comprehensive set of HR functionalities to businesses of all sizes, including features for personnel information management, attendance tracking, leave management, performance evaluation, and other HR-related tasks.
+
+* [Get to know OrangeHRM](https://www.orangehrm.com/)
+* [OrangeHRM Live Demo site](https://opensource-demo.orangehrmlive.com/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -108,8 +116,12 @@ The following prerequisites that you will need to get started:
 
 1. This repo of course! You may download it as a zip file or "git clone" it to your computer.
 2. Installed [Katalon Studio.](https://katalon.com/download)
-3. [Optional] Jenkins or [CircleCI](https://circleci.com/) (I've only tested these two, you may experiment with others at your own risk) if you intend to use the project with CI.
-4. You're good to go! :)
+
+Optional
+
+3. [A Jira Cloud account.](https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=free&skipBundles=true)
+4. A Linux server (for usage with CI). I recommend using [VirtualBox](https://www.instructables.com/How-to-install-Linux-on-your-Windows/) for starters. You can also checkout on [AWS EC2 instances](https://aws.amazon.com/ec2/) for running CI on cloud server (you need credit card to register for them).
+5. [Jenkins](https://www.jenkins.io/doc/book/installing/linux/) or [CircleCI](https://circleci.com/), if you intend to use the project with CI (I've only tested these two, you may experiment with others at your own risk). [Get to know more about CI.](https://www.techtarget.com/searchsoftwarequality/definition/continuous-integration)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +184,7 @@ The following prerequisites that you will need to get started:
 *Just get a higher paid t2 instances to be able to run Jenkins properly.*
 *[Explanation 1](https://stackoverflow.com/questions/57991172/aws-ec2-t2-micro-unlimited-jenkins-maven-very-slow-build-hangs), [Explanation 2](https://stackoverflow.com/questions/71038504/when-jenkins-job-in-running-ip-gets-frozen-and-inaccessible), [Explanation 3](https://serverfault.com/questions/932544/ec2-instance-freezes)*
 
-#### B. [CircleCI](https://circleci.com/) (Not for the faint of heart!)
+#### B. CircleCI (Not for the faint of heart!)
 
 1. CircleCI is intended to be used with projects that is already committed to your own GitHub repository. The behaviour is not the same as Jenkins. With Jenkins, you can checkout any compatible public repositories.
 2. To use CircleCI, you may fork my repository to your own GitHub repository. Proceed with any changes as desired in your own repository.
@@ -220,6 +232,8 @@ The following prerequisites that you will need to get started:
 M. Faris - [Facebook](https://fb.me/its.me.eff) - mfaris.official@gmail.com
 
 GitHub : [mfarisgh](https://github.com/mfarisgh)
+
+GitLab : [mfarisgl](https://gitlab.com/mfarisgl)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
