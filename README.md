@@ -174,8 +174,8 @@ Optional
    sudo mv ./Katalon_Studio_Engine_Linux_64-9.3.2 ./kre
    sudo chmod -R 777 ./kre
    ```
-4. You can refer to the sample `jenkins_pipeline_katalon.txt` to assign respective values such as the directory of KRE, project folder, etc. Copy the contents (in the txt file) to your Jenkins job settings -> Pipeline (Pipeline script).
-5. If your first time build is failed, consider moving/copying the KRE folder into the Jenkins workspace folder.
+3. You can refer to the sample `jenkins_pipeline_katalon.txt` to assign respective values such as the directory of KRE, project folder, etc. Copy the contents (in the txt file) to your Jenkins job settings -> Pipeline (Pipeline script).
+4. If your first time build is failed, consider moving/copying the KRE folder into the Jenkins workspace folder.
    ```sh
    sudo cp -r /home/<your OS username>/kre /var/lib/jenkins/workspace/<name of job>/kre
    sudo chmod -R 777 /var/lib/jenkins/workspace/<name of job>/kre
