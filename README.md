@@ -133,10 +133,10 @@ Optional
    
    ```sh
    jira.enabled=  # true or false
-   jira.url=  # your Jira URL. Do not forget the ending slash! You may leave it blank.
-   jira.username=  #  your Jira username (email address). You may leave it blank.
-   jira.token=  # your Jira user token. You may leave it blank.
-   jira.project=  # your Jira project code. e.g. STC. You may leave it blank.
+   jira.url=  # your Jira URL. Do not forget the ending slash! You may leave it blank if false.
+   jira.username=  #  your Jira username (email address). You may leave it blank if false.
+   jira.token=  # your Jira user token. You may leave it blank if false. Refer here on how to get them https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/
+   jira.project=  # your Jira project code. e.g. STC. You may leave it blank if false.
    ```
 
 4. Update WebDrivers: Tools -> Update WebDrivers -> Your preferred browser.
@@ -211,7 +211,7 @@ Optional
     JIRA_ENABLED='true' #true or false
     JIRA_URL='<your Jira URL with ending slash>' #You may leave it blank if false
     JIRA_USERNAME='<your Jira email address>' #You may leave it blank if false
-    JIRA_TOKEN='<your Jira Token>' #You may leave it blank if false
+    JIRA_TOKEN='<your Jira Token>' #You may leave it blank if false. Refer here on how to get them https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/
     JIRA_PROJ='<your Jira project code>' #You may leave it blank if false
     ```
 10. If you use self-hosted runner. In your CircleCI project, select branch 'master' and click "Edit Config". Replace the following line of code with your resource class name for your self-hosted runner.
