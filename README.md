@@ -138,10 +138,12 @@ Optional
    jira.token=  # your Jira user token. You may leave it blank.
    jira.project=  # your Jira project code. e.g. STC. You may leave it blank.
    ```
-   
-4. Choose and run any of the Test Cases or Test Suites in `Test Cases` or `Test Suites` folder.
-5. Change profile/environment to `DemoLive` to be able to use all the variables/parameters specified in Test Cases.
-6. If you use Jira and enabled Jira in `local.properties`, all the failed Test Cases will be recorded as a Bug in your Jira Backlog.
+
+4. Update WebDrivers: Tools -> Update WebDrivers -> Your preferred browser.
+5. Choose and open by double-clicking any of the Test Cases or Test Suites in `Test Cases` or `Test Suites` folder.
+6. Change profile/environment to `DemoLive` to be able to use all the variables/parameters specified in Test Cases. It is located on the top right, named "default".
+7. Click the Play button on the top right.
+8. If you use Jira and enabled Jira in `local.properties`, all the failed Test Cases will be recorded as a Bug in your Jira Backlog.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
